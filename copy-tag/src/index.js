@@ -6,10 +6,6 @@ import {copyTag} from './lib.js';
 
 
 async function main() {
-  await copyTag('https://harbor.tapclap.com', 'Dmitry Sergeev', 'P15m39abG', 'reg/gemscocos/client', 'stand-ok_mobile-manual-202312182012-gh-workflows-6d15e21f4c', 'test1');
-}
-
-async function main() {
   try {
     const context  = github.context;
     const repoName = context.payload.repository.name.toLowerCase();
