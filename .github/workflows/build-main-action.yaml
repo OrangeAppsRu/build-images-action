@@ -5,7 +5,7 @@ on:
   push:
     branches:
       - main
-      - secrets
+      - platforms
     paths:
       - js-action/src/**/*
       - js-action/package*.json
